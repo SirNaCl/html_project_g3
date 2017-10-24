@@ -1,3 +1,20 @@
-label{
+.header_main{
+  position: static;
+  z-index: 10;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  min-height: 40px;
   background-color: black;
+}
+
+.false_header{
+  z-index: 9;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  min-height: 40px;
+}
+
+#contact_form{
 }

@@ -3,25 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>title</title>
-    <link rel="stylesheet" href="Stylesheets/Stylesheets.css">
+    <link rel="stylesheet" href="Stylesheets/EmilSS.css">
   </head>
   <body>
-        <form id="contact_form">
-            <fieldset>
-                <legend>Feedback</legend>
-                <label>First name<br /></label>
-                <input type="text" name="firstname" required pattern="[A-z|" />
-                <br />
-                <label>Last name<br /></label>
-                <input type="text" name="lastname" required pattern="[A-z|" />
-                <br />
-                <label>Email<br /></label>
-                <input type="email" name="email" required="required">
-                <br />
-                <label>Message<br /></label>
-                <textarea minlength="10" maxlength="255" name="comment" rows="10" cols="50"></textarea>
-                <input type="submit" value="Submit" />
-            </fieldset>
-        </form>
+      <header >
+
+      <section class="header_main">
+
+        <div class="header_content">
+
+        </div>
+        <nav class="menu_bar">
+
+        </nav>
+      </section>
+
+        
+      </header>
+
+
+      <form id="contact_form">
+          <fieldset>
+              <legend>Feedback</legend>
+              <label>First name<br /></label>
+              <input type="text" name="firstname" required pattern="[A-z|"
+              placeholder="Enter name"/>
+              <br />
+              <label>Last name<br /></label>
+              <input type="text" name="lastname" required pattern="[A-z|"
+              placeholder="Enter name"/>
+              <br />
+              <label>Email<br /></label>
+              <input type="email" name="email" required="required">
+              <br />
+              <label>Message<br /></label>
+              <textarea minlength="10" maxlength="255" name="comment"
+              rows="10" cols="50"></textarea>
+              <input type="submit" value="Submit" />
+          </fieldset>
+      </form>
   </body>
 </html>
