@@ -1,6 +1,4 @@
-@import "Stylesheets/BjornSS.css";
-@import "Stylesheets/DisaSS.css";
-@import "Stylesheets/EmilSS.css";
-@import "Stylesheets/MaerinaSS.css";
-
-/* Denna Stylesheet ska länkas i alla html filer. */
+@import url('Stylesheets/BjornSS.css');
+@import url('Stylesheets/DisaSS.css');
+@import url('Stylesheets/EmilSS.css');
+@import url('Stylesheets/MartinaSS.css');
