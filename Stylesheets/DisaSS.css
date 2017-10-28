@@ -1,8 +1,50 @@
-textarea{
-    height: 20px;
-    width: 200px;
+.start{
 }
 
-input{
+
+
+.searchArea{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.searchTerm{
     width: 400px;
+    border-radius: 4px;
+    height: 25px;
+}
+
+.searchArea:nth-child(2){
+    height: 30px;
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.slogan:first-child{
+    font-size: 20px;
+}
+
+.aboutAndadvertising{
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    width: 350px;
+    height: 450px;
+}
+
+.Advertising{
+    height: 450px;
+    width: 350px;
+
+}
+
+.ad{
+    height: 450px;
 }
