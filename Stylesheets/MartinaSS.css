@@ -1,0 +1,17 @@
+.cart {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid black;
+    background: #fff;
+    min-width: 150px;
+}
+
+.cart:hover .cart-content {
+    display: block;
+}
