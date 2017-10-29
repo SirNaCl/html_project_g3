@@ -2,61 +2,75 @@
 <html>
 
 <head>
+    <script src="https://use.fontawesome.com/260157a8db.js"></script>
+    <link rel="stylesheet" href="Stylesheets/MartinaSS.css">
 </head>
 
 <body>
-    <main>
-        <h1>Checkout</h1>
-        <section class="cart-list">
-            <h2>Your cart is empty</h2>
-        </section>
-        <section class="checkout">
-            <form id="checkout-form">
-                <fieldset>
-                    <legend>Billing information</legend>
-                    <label>First name 
+    <header>
+        <nav>
+            <div class="cart">
+                <i class="fa fa-shopping-cart cart-icon" aria-hidden="true"></i>
+
+                <div class="cart-content">
+                    <h5>Your cart</h5>
+                    <em>is empty..</em>
+                    <button>View cart</button>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <h1>Checkout</h1>
+            <section class="cart-list">
+                <h2>Your cart is empty</h2>
+            </section>
+            <section class="checkout">
+                <form id="checkout-form">
+                    <fieldset>
+                        <legend>Billing information</legend>
+                        <label>First name 
                         <input type="text">
                     </label>
-                    <label>Last Name
+                        <label>Last Name
                         <input type="text">
                     </label>
-                    <br/>
-                    <label>C/o
+                        <br/>
+                        <label>C/o
                         <input type="text">
                     </label>
-                    <br/>
-                    <label>Street adress
+                        <br/>
+                        <label>Street adress
                         <input type="text">
                     </label>
-                    <br />
-                    <label>Zip Code
+                        <br />
+                        <label>Zip Code
                         <input type="text">
                     </label>
-                    <br />
-                    <label>Country
+                        <br />
+                        <label>Country
                         <input type="text">
                     </label>
-                    <br/>
-                    <label>Email
+                        <br/>
+                        <label>Email
                         <input type="text">
                     </label>
-                </fieldset>
-                <fieldset>
-                    <legend>Shipping method</legend>
-                    <input type="radio" name="standard">
-                    <label for="standard">Standard</label>
-                    <br />
-                    <input type="radio" name="express">
-                    <label for="express">Express</label>
-                    <br />
-                    <input type="radio" name="home-delivery">
-                    <label for="home-delivery">Home delivery</label>
-                    <br />
-                </fieldset>
-                <input type="submit">
-            </form>
-        </section>
-    </main>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Shipping method</legend>
+                        <input type="radio" name="standard">
+                        <label for="standard">Standard</label>
+                        <br />
+                        <input type="radio" name="express">
+                        <label for="express">Express</label>
+                        <br />
+                        <input type="radio" name="home-delivery">
+                        <label for="home-delivery">Home delivery</label>
+                        <br />
+                    </fieldset>
+                    <input type="submit">
+                </form>
+            </section>
+        </main>
 </body>
 
 </html>
