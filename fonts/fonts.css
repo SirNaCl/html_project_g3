@@ -3,3 +3,7 @@
 main{
 font-family: 'Enriqueta', serif;
 }
+
+.link > a {
+  font-family: 'Enriqueta', serif;
+}
