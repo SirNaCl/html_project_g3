@@ -22,7 +22,7 @@
 .slogan{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 
@@ -34,17 +34,12 @@
     display: flex;
     justify-content: space-around;
 }
-.about{
-    width: 350px;
-    height: 450px;
-}
 
-.Advertising{
-    height: 450px;
+.aboutAndadvertising div{
     width: 350px;
-
 }
 
 .ad{
-    height: 450px;
+    width: 350px;
+
 }
