@@ -1,6 +1,8 @@
 .cart {
     position: relative;
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
 }
 
 .cart-content {
@@ -14,4 +16,8 @@
 
 .cart:hover .cart-content {
     display: block;
+}
+
+.cart-icon {
+    line-height: 50px;
 }
