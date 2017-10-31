@@ -8,16 +8,30 @@
 .cart-content {
     display: none;
     position: absolute;
+    top: 50px;
     z-index: 1;
-    border: 1px solid black;
+    border: 2px solid #ED9C2D;
+    border-top: none;
     background: #fff;
     min-width: 150px;
+    padding: 10px 5px;
 }
 
-.cart:hover .cart-content {
+.cart-icon:hover+.cart-content {
+    display: block;
+}
+
+.cart-content:hover {
     display: block;
 }
 
 .cart-icon {
     line-height: 50px;
+    width: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.cart-icon:hover {
+    opacity: 0.5;
 }
