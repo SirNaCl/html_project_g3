@@ -1,8 +1,7 @@
 .cart {
-    position: relative;
+    position: absolute;
     display: flex;
-    justify-content: flex-end;
-    margin-right: 5%;
+    right:0;
 }
 
 .cart-content {
@@ -16,6 +15,7 @@
     min-width: 300px;
     padding: 5px 10px;
     font-family: 'Enriqueta', serif;
+    right:0;
 }
 
 .cart-icon:hover+.cart-content {

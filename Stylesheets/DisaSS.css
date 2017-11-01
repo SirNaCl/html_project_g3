@@ -22,6 +22,7 @@
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 50px;
+    background-color: #e8e8e8;
 }
 
 .slogan:first-child{
@@ -30,14 +31,15 @@
 
 .aboutAndadvertising{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    background-color: #e8e8e8;
+    width: 100%
 }
-
 .aboutAndadvertising div{
-    width: 350px;
+    width: 100%;
 }
 
 .ad{
-    width: 350px;
+    width: 100%;
 
 }

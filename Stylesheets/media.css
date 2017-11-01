@@ -1,0 +1,60 @@
+@media screen and (max-width: 768px) {
+    section{
+        font-size: large;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .menu_bar{
+        font-size:large;
+        justify-content: space-around;
+
+    }
+    .menu_bar>div{
+        height: inherit;
+        background-color: #ED9C2D;
+        width:100%;
+    }
+
+
+    .mainCode{
+        width:100%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 180px;
+    }
+
+    .cart{
+        position: relative;
+    }
+}
+
+@media screen and (max-width:443px) {
+
+
+    .menu_bar {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: large;
+        background-color: inherit;
+        height: auto;
+
+    }
+    .searchArea{
+        display: flex;
+        flex-direction: row;
+    }
+
+    main{
+        padding-top: 220px;
+        font-size: small;
+    }
+
+    .cart{
+        background-color: #ED9C2D;
+        position: relative;
+    }
+}
