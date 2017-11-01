@@ -37,9 +37,11 @@
 }
 .aboutAndadvertising div{
     width: 100%;
+    padding-left: 10px;
 }
 
 .ad{
     width: 100%;
+    padding-right: 10px;
 
 }
