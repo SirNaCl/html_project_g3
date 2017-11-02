@@ -45,3 +45,22 @@
     padding-right: 10px;
 
 }
+
+.mediaButton{
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    transform: translateY(100%);
+}
+
+.mediaButton a{
+    color: #ED9C2D;
+    font-size: x-large;
+    flex-direction: row;
+    padding-left: 10px;
+
+}
+
+.mediaButton a:hover{
+    opacity: 0.5;
+}

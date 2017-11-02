@@ -10,15 +10,20 @@
 
     .menu_bar{
         font-size:large;
-        justify-content: space-around;
 
     }
     .menu_bar>div{
         height: inherit;
         background-color: #ED9C2D;
-        width:100%;
+        width:auto;
+        margin-right: 3%;
     }
 
+    .cart{
+      display: flex;
+      position: absolute;
+      right: 0;
+    }
 
     .mainCode{
         width:100%;
@@ -36,12 +41,20 @@
 
 
     .menu_bar {
+        flex-direction: column;
         display: flex;
         flex-wrap: wrap;
         font-size: large;
         background-color: inherit;
         height: auto;
 
+    }
+
+    .menu_bar > div{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-right: 0;
     }
     .searchArea{
         display: flex;
