@@ -1,7 +1,3 @@
-li:hover{
-	opacity:0.5;
-}
-
 .productList p{
 	display: flex;
 	margin-left: 10px;
@@ -48,4 +44,7 @@ li:hover{
 .productList div:nth-child(3){
 	margin-left: auto;
 	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
 }
