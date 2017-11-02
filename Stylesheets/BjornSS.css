@@ -48,3 +48,8 @@
 	flex-direction: column;
 	align-items: center;	
 }
+
+.checkout fieldset{
+	display: flex;
+	flex-direction: column;
+}
