@@ -18,8 +18,8 @@ li:hover{
 	display: flex;
     max-width: 90%;
     height: 75px;
+	
 }
-
 
 .productList li:nth-child(even){
 	background: #e8e8e8;	
@@ -28,9 +28,24 @@ li:hover{
 .productList li:nth-child(odd){
 	background: #eadbc7;	
 }
-
 .productList{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column;    
+}
+
+.productList button{		
+	width: 85px;
+	height: 30px;
+	align-self: center;	
+	margin-left: auto;		
+	
+}
+
+.productList button:hover{
+	color: green;	
+}
+
+.productList div:nth-child(3){
+	margin-left: auto;
+	font-weight: bold;
 }
