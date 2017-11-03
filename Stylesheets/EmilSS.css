@@ -86,6 +86,27 @@ fieldset > textarea {
   width: 90%;
 }
 
+.contact_form fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_form label{
+    display: flex;
+    flex-direction: column;
+    max-width: 20ch;
+}
+
+.contact_form input{
+    margin-top: 10px;
+}
+
+.contact_form textarea{
+    height: 100px;
+    resize: none;
+    padding-top: 10px;
+}
+
 footer {
   position: absolute;
   left: 0;

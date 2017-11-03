@@ -88,19 +88,17 @@
       <form class="contact_form">
           <fieldset>
               <legend>Get in touch.</legend>
-              <label>First name<br /></label>
-              <input type="text" name="firstname" required pattern="[A-z|"/>
-              <br />
-              <label>Last name<br /></label>
-              <input type="text" name="lastname" required pattern="[A-z|"/>
-              <br />
-              <label>Email<br /></label>
-              <input type="email" name="email" required="required">
-              <br />
-              <label>Message<br /></label>
-              <textarea minlength="10" maxlength="255" name="comment"
-              rows="10" cols="50"></textarea>
-              <input type="submit" value="Submit" />
+              <label>First name
+                  <input type="text" name="firstname" required pattern="[A-z|"/></label>
+
+              <label>Last name
+                  <input type="text" name="lastname" required pattern="[A-z|"/></label>
+
+              <label>Email
+                  <input type="email" name="email" required="required"></label>
+              <label>Message</label>
+              <textarea minlength="10" maxlength="255" name="comment"></textarea>
+              <input type="submit" class="btn btn-success checkout" value="Submit" />
           </fieldset>
       </form>
     </main>
