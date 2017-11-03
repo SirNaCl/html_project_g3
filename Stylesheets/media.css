@@ -56,14 +56,10 @@
       width: 100%;
       margin-right: 0;
     }
-    .searchArea{
-        display: flex;
-        flex-direction: row;
-    }
 
-    main{
+
+    .mainCode{
         padding-top: 220px;
-        font-size: small;
     }
 
     .cart{
@@ -71,7 +67,13 @@
         position: relative;
     }
 
-    .mainCode, label, input, button{
-        font-size: Large;
+    .mainCode p, fieldset, button, input{
+        font-size: x-large;
+    }
+
+    #checkout-form:first-of-type div, #checkout-form:last-of-type fieldset
+    {
+     display: flex;
+        flex-direction: column;
     }
 }
