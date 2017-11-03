@@ -72,33 +72,27 @@
         <section class="checkout">
             <form id="checkout-form">
                 <fieldset>
-                    <legend>Billing information</legend>
-                    <label>First name 
-                        <input type="text">
-                    </label>
-                    <label>Last Name
-                        <input type="text">
-                    </label>
-                    <br/>
-                    <label>C/o
-                        <input type="text">
-                    </label>
-                    <br/>
-                    <label>Street adress
-                        <input type="text">
-                    </label>
-                    <br />
-                    <label>Zip Code
-                        <input type="text">
-                    </label>
-                    <br />
-                    <label>Country
-                        <input type="text">
-                    </label>
-                    <br/>
-                    <label>Email
-                        <input type="text">
-                    </label>
+                    <legend>Billing information</legend> 
+						<div>						
+							<label for="firstname">First Name</label>
+								<input type="text" name="firstname" placeholder="First Name"
+								pattern="[A-ö]{2,30}" maxlength="30" title="At least two letters and letters only">								
+							<label for="lastname">Last Name</label>
+								<input type="text" name="lastname" placeholder="Last Name" 
+								pattern="[A-ö]{2,30}" maxlength="30" title="At least two letters and letters only">
+						</div> 
+						<label for="C/o">Co-adress</label>
+							<input type="text" name="C/o" placeholder="C/o"
+							pattern="[A-ö]{2,30}" maxlength="30" title="Letters only">
+						<label for="streetadress">Street Adress</label>
+							<input type="address" name="streetadress" placeholder="Street Adress">							 
+						<label for="zipcode">Zip Code</label>
+							<input type="number" name="zipcode" placeholder="Zip Code" title="Numbers only">							
+						<label for="country">Country</label>
+							<input type="Country" name="country" placeholder="Country" title="Letters only"
+							pattern="[A-ö]{2,30}" maxlength="30" title="Letters only">				 
+						<label for="email">e-Mail</label>
+							<input type="e-Mail" name="email" placeholder="E-Mail" title="Enter an valid e-mail">							
                 </fieldset>
                 <fieldset>
                     <legend>Shipping options</legend>

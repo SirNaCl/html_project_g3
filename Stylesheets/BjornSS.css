@@ -48,7 +48,3 @@
 	align-items: center;	
 }
 
-.checkout fieldset{
-	display: flex;
-	flex-direction: column;
-}
