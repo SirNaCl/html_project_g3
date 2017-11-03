@@ -71,7 +71,7 @@
         position: relative;
     }
 
-    #checkout-form .btn.btn-success.checkout{
-        font-size: large;
+    .mainCode, label, input, button{
+        font-size: Large;
     }
 }
