@@ -104,3 +104,7 @@ div.total p.price {
 .checkout label{
 	text-transform: capitalize;
 }
+
+#checkout-form .btn.btn-success.checkout{
+    margin-top: 5px;
+}

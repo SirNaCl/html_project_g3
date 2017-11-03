@@ -70,4 +70,8 @@
         background-color: #ED9C2D;
         position: relative;
     }
+
+    #checkout-form .btn.btn-success.checkout{
+        font-size: large;
+    }
 }

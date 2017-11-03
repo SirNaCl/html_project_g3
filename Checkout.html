@@ -85,14 +85,14 @@
 							<input type="text" name="C/o" placeholder="C/o"
 							pattern="[A-ö]{2,30}" maxlength="30" title="Letters only">
 						<label for="streetadress">Street Adress</label>
-							<input type="address" name="streetadress" placeholder="Street Adress">							 
+							<input type="text" name="streetadress" placeholder="Street Adress">
 						<label for="zipcode">Zip Code</label>
-							<input type="number" name="zipcode" placeholder="Zip Code" title="Numbers only">							
+							<input type="number" name="zipcode" placeholder="Zip Code" title="Numbers only">
 						<label for="country">Country</label>
-							<input type="Country" name="country" placeholder="Country" title="Letters only"
-							pattern="[A-ö]{2,30}" maxlength="30" title="Letters only">				 
+							<input type="text" name="country" placeholder="Country"
+							pattern="[A-ö]{2,30}" maxlength="30" title="Letters only">
 						<label for="email">e-Mail</label>
-							<input type="e-Mail" name="email" placeholder="E-Mail" title="Enter an valid e-mail">							
+							<input type="email" name="email" placeholder="E-Mail" title="Enter a valid e-mail">
                 </fieldset>
                 <fieldset>
                     <legend>Shipping options</legend>
@@ -106,7 +106,7 @@
                     <input type="radio" name="shipping" value="home-delivery" id="home-delivery" />
                     Home delivery</label>
                 </fieldset>
-                <input type="submit" class="btn btn-success checkout">
+                <input type="submit" class="btn btn-success checkout" value="Place order">
             </form>
         </section>
     </main>
