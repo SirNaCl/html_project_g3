@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta name="description" content="Welcome to ECCoffee, the best coffee shop to buy the liquid gold that is pumping through your veins." />
+    <meta name="description"
+          content="Welcome to ECCoffee, the best coffee shop to buy the liquid gold that is pumping through your veins."/>
     <meta name="keywords" content="coffee, best, delicious">
     <meta charset="UTF-8">
     <script src="https://use.fontawesome.com/260157a8db.js"></script>
@@ -13,119 +14,113 @@
 
 <body>
 
-    <header class="fixed_header">
-        <section class="header_main">
-            <a class="logga" href="start.html">
-                <img src="images/logga.png" alt="ECClogo">
-            </a>
-        </section>
+<header class="fixed_header">
+    <section class="header_main">
+        <a class="logga" href="start.html">
+            <img src="images/logga.png" alt="ECClogo">
+        </a>
+    </section>
 
-        <nav class="menu_bar">
-            <div class="link">
-                <a href="start.html">Start</a>
-            </div>
-            <div class="link">
-                <a href="Products.html">Products</a>
-            </div>
-            <div class="link">
-                <a href="Contact.html">Contact us</a>
-            </div>
-            <div class="link">
-                <a href="Checkout.html">Checkout</a>
+    <nav class="menu_bar">
+        <div class="link">
+            <a href="start.html">Start</a>
+        </div>
+        <div class="link">
+            <a href="Products.html">Products</a>
+        </div>
+        <div class="link">
+            <a href="Contact.html">Contact us</a>
+        </div>
+        <div class="link">
+            <a href="Checkout.html">Checkout</a>
+        </div>
+
+        <div class="cart">
+            <div class="cart-icon">
+                <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
             </div>
 
-            <div class="cart">
-                <div class="cart-icon">
-                    <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+
+            <div class="cart-content">
+                <ul>
+                    <li>
+                        <div class="product-name">Products</div>
+                        <div class="amount">Amount</div>
+                        <div class="price">Price</div>
+                    </li>
+                    <li>
+                        <div class="product-name">Cappuccino</div>
+                        <div class="amount">2</div>
+                        <div class="price">20.00kr</div>
+                    </li>
+                </ul>
+                <div class="total">
+                    <p>Total</p>
+                    <p class="price">40.00kr</p>
                 </div>
-
-
-                <div class="cart-content">
-                    <ul>
-                        <li>
-                            <div class="product-name">Products</div>
-                            <div class="amount">Amount</div>
-                            <div class="price">Price</div>
-                        </li>
-                        <li>
-                            <div class="product-name">Cappuccino</div>
-                            <div class="amount">2</div>
-                            <div class="price">20.00kr</div>
-                        </li>
-                    </ul>
-                    <div class="total">
-                        <p>Total</p>
-                        <p class="price">40.00kr</p>
-                    </div>
-                    <button class="btn btn-danger empty">Empty cart</button>
-                    <button class="btn btn-success checkout">Go to checkout</button>
-                </div>
+                <button class="btn btn-danger empty">Empty cart</button>
+                <button class="btn btn-success checkout">Go to checkout</button>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 
-    <main class="mainCode">
-        <h1>Checkout</h1>
-        <section class="cart-list">
-            <h2>Your cart is empty</h2>
-        </section>
-        <section class="checkout">
-            <form id="checkout-form">
-                <fieldset>
-                    <legend>Billing information</legend>
-                    <label>First name 
-                        <input type="text">
-                    </label>
-                    <label>Last Name
-                        <input type="text">
-                    </label>
-                    <br/>
-                    <label>C/o
-                        <input type="text">
-                    </label>
-                    <br/>
-                    <label>Street adress
-                        <input type="text">
-                    </label>
-                    <br />
-                    <label>Zip Code
-                        <input type="text">
-                    </label>
-                    <br />
-                    <label>Country
-                        <input type="text">
-                    </label>
-                    <br/>
-                    <label>Email
-                        <input type="text">
-                    </label>
-                </fieldset>
-                <fieldset>
-                    <legend>Shipping options</legend>
-                    <label for="standard">
-                    <input type="radio" name="shipping" value="standard" id="standard" />
+<main class="mainCode">
+    <h1>Checkout</h1>
+    <section class="cart-list">
+        <h2>Your cart is empty</h2>
+    </section>
+    <section class="checkout">
+        <form id="checkout-form">
+            <fieldset>
+                <legend>Billing information</legend>
+                <div>
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" placeholder="First Name"
+                           pattern="[A-ö]{2,30}" maxlength="30" title="At least two letters and letters only">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" placeholder="Last Name"
+                           pattern="[A-ö]{2,30}" maxlength="30" title="At least two letters and letters only">
+                </div>
+                <label for="C/o">Co-adress</label>
+                <input type="text" name="C/o" placeholder="C/o"
+                       pattern="[A-ö]{2,30}" maxlength="30" title="Letters only">
+                <label for="streetadress">Street Adress</label>
+                <input type="text" name="streetadress" placeholder="Street Adress">
+                <label for="zipcode">Zip Code</label>
+                <input type="number" name="zipcode" placeholder="Zip Code" title="Numbers only">
+                <label for="country">Country</label>
+                <input type="text" name="country" placeholder="Country"
+                       pattern="[A-ö]{2,30}" maxlength="30" title="Letters only">
+                <label for="email">e-Mail</label>
+                <input type="email" name="email" placeholder="E-Mail" title="Enter a valid e-mail">
+            </fieldset>
+            <fieldset>
+                <legend>Shipping options</legend>
+                <label for="standard">
+                    <input type="radio" name="shipping" value="standard" id="standard"/>
                     Standard</label>
-                    <label for="express">
-                    <input type="radio" name="shipping" value="express" id="express" />
+                <label for="express">
+                    <input type="radio" name="shipping" value="express" id="express"/>
                     Express</label>
-                    <label for="home-delivery">
-                    <input type="radio" name="shipping" value="home-delivery" id="home-delivery" />
+                <label for="home-delivery">
+                    <input type="radio" name="shipping" value="home-delivery" id="home-delivery"/>
                     Home delivery</label>
-                </fieldset>
-                <input type="submit" class="btn btn-success checkout">
-            </form>
-        </section>
-    </main>
-    <footer>
-        <div class="mediaButton">
-            <a href="www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            <a href="www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="www.twitter.com"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-        </div>
-        <div class="trademark">
-            <p>This is a trademark &copy </p>
-        </div>
-    </footer>
+            </fieldset>
+            <input type="submit" class="btn btn-success checkout" value="Place order">
+        </form>
+    </section>
+</main>
+<footer>
+    <div class="mediaButton">
+        <a href="www.facebook.com"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a href="www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="www.twitter.com"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+    </div>
+    <div class="trademark">
+        <p>This is a trademark &copy </p>
+    </div>
+</footer>
 </body>
 
 </html>

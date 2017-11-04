@@ -60,7 +60,7 @@ main{
   margin-right: 15%;
   margin-top: 180px;
   margin-bottom: 100px;
-  padding-bottom: 20px;
+  padding-bottom:50px;
 }
 
 .info{
@@ -84,6 +84,27 @@ main{
 
 fieldset > textarea {
   width: 90%;
+}
+
+.contact_form fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_form label{
+    display: flex;
+    flex-direction: column;
+    max-width: 20ch;
+}
+
+.contact_form input{
+    margin-top: 10px;
+}
+
+.contact_form textarea{
+    height: 100px;
+    resize: none;
+    padding-top: 10px;
 }
 
 footer {
