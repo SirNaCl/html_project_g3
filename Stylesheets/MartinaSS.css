@@ -3,6 +3,19 @@
     display: flex;
     right:0;
 }
+.cart-list ul {
+    list-style:none;
+}
+.cart-list li{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-list .totalPrice{
+    justify-content:flex-end;
+}
+.cart-list input{
+    width: 20%;
+}
 
 .cart-content {
     display: none;

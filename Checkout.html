@@ -13,6 +13,8 @@
 </head>
 
 <body>
+<script src="JS/jquery-3.2.1.min.js"></script>
+
 
 <header class="fixed_header">
     <section class="header_main">
@@ -68,7 +70,28 @@
 <main class="mainCode">
     <h1>Checkout</h1>
     <section class="cart-list">
-        <h2>Your cart is empty</h2>
+
+        <ul>
+            <li>
+                <div class="product-name">Products</div>
+                <div class="amount">Amount</div>
+                <div class="price">Price</div>
+                <div class="removeProduct">Remove</div>
+            </li>
+            <li class="pruduct" data-price="20">
+                <div class="product-name">Cappuccino</div>
+                <div class="amount"><input class="newAmmount" type="number" value="1"></div>
+                <div class="price"></div>
+                <button class="btn btn-danger empty">X</button>
+            </li>
+            <li class="product" data-price="40">
+                <div class="product-name">Irish Coffee</div>
+                <div class="amount"><input class="newAmmount" type="number" value="1"></div>
+                <div class="price"></div>
+                <button class="btn btn-danger empty">X</button>
+            </li>
+            <li class="totalPrice"><p>Total:</p><p class="totalValue">40</p><p>kr</p>
+        </ul>
     </section>
     <section class="checkout">
         <form id="checkout-form">
@@ -121,6 +144,7 @@
         <p>This is a trademark &trade; </p>
     </div>
 </footer>
+<script src="JS/emiltest.js"></script>
 </body>
 
 </html>
