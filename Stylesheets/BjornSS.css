@@ -29,11 +29,11 @@
 }
 
 .productList button{		
-	width: 85px;
+	width: 75px;
 	height: 30px;
 	align-self: center;	
 	margin-left: auto;		
-	
+	font-size: 68%;
 }
 
 .productList button:hover{
@@ -51,3 +51,4 @@
 .hidden{
 	display: none;
 }
+
