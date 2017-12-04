@@ -78,17 +78,17 @@
                 <div class="price">Price</div>
                 <div class="removeProduct">Remove</div>
             </li>
-            <li class="pruduct" data-price="20">
+            <li class="product" data-price="20">
                 <div class="product-name">Cappuccino</div>
-                <div class="amount"><input class="newAmmount" type="number" value="1"></div>
-                <div class="price"></div>
-                <button class="btn btn-danger remove">X</button>
+                <div class="amount"><input class="newAmount" type="number" value="1" min="1"></div>
+                <div class="price">20:-</div>
+                <button class="btn btn-danger empty">X</button>
             </li>
             <li class="product" data-price="40">
                 <div class="product-name">Irish Coffee</div>
-                <div class="amount"><input class="newAmmount" type="number" value="1"></div>
-                <div class="price"></div>
-                <button class="rmProduct">X</button>
+                <div class="amount"><input class="newAmount" type="number" value="1" min="1"></div>
+                <div class="price">40:-</div>
+                <button class="btn btn-danger empty">X</button>
             </li>
             <li class="totalPrice"><p>Total:</p><p class="totalValue">40</p><p>kr</p>
         </ul>
@@ -118,16 +118,16 @@
                 <label for="email">e-Mail</label>
                 <input type="email" name="email" placeholder="E-Mail" title="Enter a valid e-mail">
             </fieldset>
-            <fieldset>
+            <fieldset class="shippingField">
                 <legend>Shipping options</legend>
-                <label for="standard">
-                    <input type="radio" name="shipping" value="standard" id="standard"/>
+                <label for="shippingStandard" class="shippingLabel">
+                    <input type="radio" name="shipping" value="standard" id="shippingStandard" checked="checked"/>
                     Standard</label>
-                <label for="express">
-                    <input type="radio" name="shipping" value="express" id="express"/>
+                <label for="shippingExpress" class="shippingLabel">
+                    <input type="radio" name="shipping" value="express" id="shippingExpress"/>
                     Express</label>
-                <label for="home-delivery">
-                    <input type="radio" name="shipping" value="home-delivery" id="home-delivery"/>
+                <label for="shippingHome" class="shippingLabel">
+                    <input type="radio" name="shipping" value="home-delivery" id="shippingHome"/>
                     Home delivery</label>
             </fieldset>
             <input type="submit" class="btn btn-success checkout" value="Place order">
@@ -144,8 +144,6 @@
         <p>This is a trademark &trade; </p>
     </div>
 </footer>
-<script src="JS/emiltest.js"></script>
-<script src="dCheck.js"></script>
 <script src="JS/checkout.js"></script>
 </body>
 
