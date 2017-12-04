@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Contact Us</title>
     <script src="https://use.fontawesome.com/260157a8db.js"></script>
+    <script src="JS/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet"  type="text/css" href="Stylesheets/Stylesheets.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
@@ -85,7 +86,19 @@
         </article>
       </section>
 
-      <form class="contact_form">
+      <div class="dynamicContact">
+          <div>
+              <button class = "contactToggle">Call us</button>
+              <p class="hide">Call us on this number 0734305998</p>
+          </div>
+
+          <div>
+              <button class = "contactToggle">Email Us</button>
+              <p class="hide">You can contact us on the following email adress: info@eccoffee.com</p>
+          </div>
+      </div>
+
+      <form class="contact_form hide">
           <fieldset>
               <legend>Get in touch.</legend>
               <label>First name
@@ -113,5 +126,6 @@
             <p>This is a trademark &trade; </p>
           </div>
       </footer>
+  <script src="JS/contact.js"></script>
   </body>
 </html>
