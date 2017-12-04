@@ -48,3 +48,6 @@
 	align-items: center;	
 }
 
+.hidden p{
+	display: none;
+}
