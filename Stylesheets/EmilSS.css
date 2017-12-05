@@ -127,3 +127,24 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+.hide{
+    display: none;
+}
+
+.dynamicContact{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-right: 0px;
+    align-items: flex-start;
+}
+
+.dynamicContact > div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
