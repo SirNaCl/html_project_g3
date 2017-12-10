@@ -3,9 +3,17 @@ $(document).ready(function () {
     $(".newAmount").on("change",updatePrice).on("click",updatePrice);
     $(".shippingField").find("label").on("click", setPriceTotal);
 
-	$('button').on('click', function(){
-		$(this).closest('li').remove()	
-	});
+	$("button").click(function(){
+    $(this).closest("li").hide();
+    });
+
+    $("#btnReset").click(function() {
+    $('.product').show();
+    });
+
+    $('#btnEmptyCart').click(function(){
+        $('.product').hide();
+    });
 
 });
 
